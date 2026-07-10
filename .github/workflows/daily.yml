@@ -4,7 +4,12 @@ on:
   schedule:
     # 05:00 UTC an Werktagen (Mo–Fr) ≈ 06:00/07:00 in DE. Cron ist immer UTC.
     - cron: "0 5 * * 1-5"
-  workflow_dispatch: # Ermöglicht manuelles Auslösen im Actions-Tab
+  workflow_dispatch: # Manueller Start im Actions-Tab
+    inputs:
+      day:
+        description: "Optional: bestimmten Tag (1–60) erzwingen — leer lassen = aus Datum"
+        required: false
+        default: ""
 
 permissions:
   contents: write # nötig, um das Ergebnis ins Repo zu committen
@@ -31,7 +36,14 @@ jobs:
       - name: Deep-Dive erzeugen
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: node scripts/generate.mjs
+          FORCE_DAY: ${{ inputs.day }}
+        run: |
+          if [ -n "$FORCE_DAY" ]; then
+            echo "Erzwinge Tag $FORCE_DAY"
+            node scripts/generate.mjs --day="$FORCE_DAY"
+          else
+            node scripts/generate.mjs
+          fi
 
       - name: Ergebnis committen
         run: |
