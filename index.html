@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Die Kunst des Denkens</title>
+  <meta name="description" content="Jeden Tag ein Werkzeug für klareres Denken." />
+
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <meta name="theme-color" content="#26241f" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#f6f1e7" media="(prefers-color-scheme: light)" />
+
+  <!-- iOS: „Zum Home-Bildschirm" -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Denken" />
+  <link rel="apple-touch-icon" href="./icon.svg" />
+
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <main id="app" aria-live="polite">
+    <p class="loading">Lädt …</p>
+  </main>
+
+  <footer>
+    <label for="archive">Archiv</label>
+    <select id="archive" aria-label="Vergangene Tage"></select>
+  </footer>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>

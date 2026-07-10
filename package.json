@@ -1,0 +1,15 @@
+{
+  "name": "kunst-des-denkens",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Private PWA, die täglich ein KI-kuratiertes Denkwerkzeug lehrt.",
+  "scripts": {
+    "generate": "node scripts/generate.mjs",
+    "preview": "node scripts/generate.mjs --day=1 --dry"
+  },
+  "dependencies": {
+    "openai": "^6.46.0",
+    "yaml": "^2.6.0"
+  }
+}

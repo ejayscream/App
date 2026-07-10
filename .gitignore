@@ -1,0 +1,16 @@
+# Abhängigkeiten
+node_modules/
+npm-debug.log*
+
+# Claude Code (lokal, gehört nicht ins Repo)
+.claude/
+
+# Umgebung / Secrets (API-Key niemals committen!)
+.env
+.env.*
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

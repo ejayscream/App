@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Denken">
+  <rect width="512" height="512" rx="112" fill="#efe7d6"/>
+  <circle cx="256" cy="256" r="150" fill="none" stroke="#302d27" stroke-width="20"/>
+  <circle cx="256" cy="256" r="150" fill="none" stroke="#9a7b45" stroke-width="20" stroke-dasharray="4 46" stroke-linecap="round"/>
+  <path d="M256 176 v92 M256 268 l58 40" fill="none" stroke="#302d27" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="256" cy="150" r="15" fill="#9a7b45"/>
+</svg>

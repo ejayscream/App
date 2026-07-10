@@ -1,0 +1,371 @@
+# =============================================================
+#  DIE KUNST DES DENKENS UND ENTSCHEIDENS
+#  Curriculum v1  —  12 Wochen · 5 Tage · 60 Denkwerkzeuge
+# =============================================================
+
+meta:
+  title: "Die Kunst des Denkens und Entscheidens"
+  subtitle: "Jeden Tag ein Werkzeug für klareres Denken."
+  pace: "5 Tage/Woche (Mo–Fr)"
+  total_days: 60
+  learning_goals:
+    - "Klar denken"
+    - "Wahrscheinlichkeiten einschätzen"
+    - "Gute Fragen stellen"
+    - "Logische Fehler erkennen"
+    - "Eigene Annahmen hinterfragen"
+  daily_format:
+    - "Konzept — was ist das Werkzeug?"
+    - "Beispiel — konkret, aus dem Alltag"
+    - "Typischer Fehler — wie man ohne dieses Werkzeug danebenliegt"
+    - "Frage des Tages — eine Frage zum Mitnehmen (der rote Faden der App)"
+  through_line: >
+    "Fragen stellen" ist nicht nur Woche 8, sondern das verbindende Gewebe:
+    JEDER Tag endet mit einer "Frage des Tages", die das Werkzeug in eine
+    Selbstbefragung übersetzt.
+  wildcards: >
+    Gelegentlich (ca. alle 2–3 Wochen) darf die KI einen regulären Tag durch
+    ein überraschendes Wildcard-Thema aus dem Kanon ersetzen, das nicht in den
+    Wochenbogen passt — zur Auflockerung.
+
+canon:
+  kern: [Kahneman, "Annie Duke", Taleb, Munger, "Shane Parrish"]
+  ergaenzt:
+    - Tversky
+    - Gigerenzer
+    - Cialdini
+    - "Gary Klein"
+    - Thaler
+    - Ariely
+    - Mullainathan
+    - Tetlock
+    - "Nate Silver"
+    - Hubbard
+    - Rosling
+    - Popper
+    - Dennett
+    - "Julia Galef"
+    - "Stoa (Marc Aurel, Epiktet, Seneca)"
+    - Dobelli
+    - "Warren Berger"
+    - "Edgar Schein"
+    - "Hal Gregersen"
+    - Sokrates
+    - Bevelin
+    - Weinberg
+    - Tuchman
+    - Durant
+
+weeks:
+
+  - number: 1
+    theme: "Der Beobachter im eigenen Kopf"
+    why: "Du kannst kein Denken reparieren, das du nicht siehst. Start bei der Selbstwahrnehmung."
+    anchors: [Kahneman, "Julia Galef"]
+    days:
+      - n: 1
+        tool: "System 1 vs. System 2"
+        essence: "Die zwei Denkmodi — schnell/intuitiv vs. langsam/überlegt — und wann welcher regiert."
+        thinker: Kahneman
+      - n: 2
+        tool: "Scout- vs. Soldier-Mindset"
+        essence: "Willst du recht haben oder richtig liegen? Verteidigen vs. erkunden."
+        thinker: "Julia Galef"
+      - n: 3
+        tool: "Motiviertes Denken erkennen"
+        essence: "Dein innerer Anwalt: wie Wünsche heimlich Schlussfolgerungen steuern."
+        thinker: "Galef / Kahneman"
+      - n: 4
+        tool: "Kognitive Leichtigkeit"
+        essence: "Warum sich Vertrautes und leicht Verarbeitbares automatisch 'wahr' anfühlt."
+        thinker: Kahneman
+      - n: 5
+        tool: "Das Gedanken-Tagebuch"
+        essence: "Metakognition praktisch: die eigenen Urteile festhalten, um sie prüfbar zu machen."
+        thinker: "Parrish / Duke"
+
+  - number: 2
+    theme: "Wie Wahrnehmung täuscht"
+    why: "Die häufigsten Verzerrungen, die jede Urteilsbildung im Stillen verbiegen."
+    anchors: ["Kahneman/Tversky", Dobelli]
+    days:
+      - n: 1
+        tool: "Ankereffekt"
+        essence: "Die erste Zahl im Raum regiert alle folgenden Schätzungen."
+        thinker: "Tversky / Kahneman"
+      - n: 2
+        tool: "Framing"
+        essence: "Dieselbe Tatsache, anders verpackt, kippt die Entscheidung (90% Überleben vs. 10% Sterben)."
+        thinker: Kahneman
+      - n: 3
+        tool: "Verfügbarkeitsheuristik"
+        essence: "Was leicht in den Sinn kommt, halten wir für häufig — Nachrichten verzerren so das Risiko."
+        thinker: Kahneman
+      - n: 4
+        tool: "Bestätigungsfehler"
+        essence: "Wir suchen, sehen und erinnern bevorzugt, was wir ohnehin glauben."
+        thinker: Dobelli
+      - n: 5
+        tool: "Priming & Kontext"
+        essence: "Unbewusste Reize aus der Umgebung färben Urteile, ohne dass wir es merken."
+        thinker: Kahneman
+
+  - number: 3
+    theme: "Das Gedächtnis lügt"
+    why: "Rückblickend wirkt alles logisch und vorhersehbar — die gefährlichste Illusion."
+    anchors: [Taleb, Kahneman]
+    days:
+      - n: 1
+        tool: "Rückschaufehler"
+        essence: "'Wusste ich doch' — nach dem Ereignis erscheint es unvermeidlich gewesen zu sein."
+        thinker: Kahneman
+      - n: 2
+        tool: "Narrative Fallacy"
+        essence: "Unsere Sucht nach Geschichten erfindet Ursachen, wo Zufall regierte."
+        thinker: Taleb
+      - n: 3
+        tool: "Halo-Effekt"
+        essence: "Ein positives Merkmal (Aussehen, Erfolg) färbt unser Urteil über alles andere."
+        thinker: Kahneman
+      - n: 4
+        tool: "Peak-End-Regel"
+        essence: "Erinnerndes vs. erlebendes Selbst: wir bewerten Erlebnisse nach Höhepunkt und Ende, nicht nach Dauer."
+        thinker: Kahneman
+      - n: 5
+        tool: "Fundamentaler Attributionsfehler"
+        essence: "Bei anderen sehen wir Charakter, bei uns selbst die Umstände."
+        thinker: "Lee Ross"
+
+  - number: 4
+    theme: "Denken in Wahrscheinlichkeiten"
+    why: "Dein Kernziel: Unsicherheit quantifizieren statt raten oder in Schwarz-Weiß denken."
+    anchors: [Tetlock, "Nate Silver", Gigerenzer]
+    days:
+      - n: 1
+        tool: "Basisraten"
+        essence: "Die Grundhäufigkeit, die fast jeder vergisst, wenn ein lebhaftes Detail auftaucht."
+        thinker: "Kahneman / Tversky"
+      - n: 2
+        tool: "Bayes intuitiv"
+        essence: "Überzeugungen schrittweise mit neuer Evidenz aktualisieren, statt umzukippen."
+        thinker: "Nate Silver"
+      - n: 3
+        tool: "Natürliche Häufigkeiten"
+        essence: "'1 von 100' statt '1 %' — wie die richtige Darstellung Denkfehler auflöst."
+        thinker: Gigerenzer
+      - n: 4
+        tool: "Erwartungswert"
+        essence: "Wahrscheinlichkeit × Konsequenz — warum ein kleines Risiko mit riesigem Schaden schwer wiegt."
+        thinker: "Tetlock / Hubbard"
+      - n: 5
+        tool: "Kalibrierung"
+        essence: "Wie sicher bist du wirklich? 90%-Intervalle und das ehrliche Kalibrieren von Zuversicht."
+        thinker: "Hubbard / Tetlock"
+
+  - number: 5
+    theme: "Zufall, Glück & Können"
+    why: "Ergebnis ≠ Entscheidungsqualität. Der teuerste Denkfehler von Entscheidern."
+    anchors: [Taleb, "Annie Duke"]
+    days:
+      - n: 1
+        tool: "Glück vs. Können"
+        essence: "Jedes Ergebnis hat zwei Zutaten — sie zu trennen ist der Anfang klaren Urteils."
+        thinker: "Duke / Mauboussin"
+      - n: 2
+        tool: "Resulting"
+        essence: "Eine gute Entscheidung an einem schlechten Ergebnis zu messen (und umgekehrt)."
+        thinker: "Annie Duke"
+      - n: 3
+        tool: "Regression zur Mitte"
+        essence: "Warum auf Extreme fast immer Normaleres folgt — und wir es fälschlich als Ursache deuten."
+        thinker: Kahneman
+      - n: 4
+        tool: "Survivorship Bias"
+        essence: "Die Gescheiterten reden nicht — wir lernen nur von den Überlebenden und ziehen falsche Schlüsse."
+        thinker: Taleb
+      - n: 5
+        tool: "Das Gesetz der kleinen Zahlen"
+        essence: "Kleine Stichproben produzieren Extreme, die wir für echte Muster halten."
+        thinker: "Kahneman / Tversky"
+
+  - number: 6
+    theme: "Seltene Ereignisse & Risiko"
+    why: "Die Extreme dominieren das Ergebnis — und werden systematisch unterschätzt."
+    anchors: [Taleb]
+    days:
+      - n: 1
+        tool: "Schwarze Schwäne"
+        essence: "Seltene, unvorhergesehene Ereignisse mit gewaltiger Wirkung, die wir erst hinterher 'erklären'."
+        thinker: Taleb
+      - n: 2
+        tool: "Fat Tails"
+        essence: "In manchen Welten sind die 'Ausreißer' die eigentliche Geschichte — Durchschnitt täuscht."
+        thinker: Taleb
+      - n: 3
+        tool: "Antifragilität"
+        essence: "Manche Systeme werden durch Stress und Unordnung stärker — nicht nur robust."
+        thinker: Taleb
+      - n: 4
+        tool: "Via Negativa"
+        essence: "Oft verbessert Weglassen (von Fehlern, Risiken, Überflüssigem) mehr als Hinzufügen."
+        thinker: Taleb
+      - n: 5
+        tool: "Asymmetrie & Optionalität"
+        essence: "Begrenzter Verlust, offener Gewinn — Situationen suchen, in denen Unsicherheit für dich arbeitet."
+        thinker: Taleb
+
+  - number: 7
+    theme: "Logik & saubere Argumente"
+    why: "Wann ein Schluss gültig ist — und woran du Trugschlüsse erkennst, auch die eigenen."
+    anchors: [Popper, Dennett]
+    days:
+      - n: 1
+        tool: "Gültigkeit vs. Wahrheit"
+        essence: "Ein Argument kann logisch korrekt und trotzdem falsch sein — die Struktur vom Inhalt trennen."
+        thinker: "Logik-Grundlagen"
+      - n: 2
+        tool: "Falsifizierbarkeit"
+        essence: "Was macht eine Aussage überhaupt prüfbar? Eine Behauptung, die nichts ausschließt, sagt nichts."
+        thinker: Popper
+      - n: 3
+        tool: "Trugschlüsse I"
+        essence: "Strohmann, Ad hominem, falsches Dilemma — die häufigsten unfairen Züge in Argumenten."
+        thinker: Warburton
+      - n: 4
+        tool: "Trugschlüsse II"
+        essence: "Korrelation ≠ Kausalität, Zirkelschluss, Post hoc — wenn Schein-Logik überzeugt."
+        thinker: Warburton
+      - n: 5
+        tool: "Intuition Pumps"
+        essence: "Gedankenexperimente als Werkzeuge, um Intuitionen zu testen statt ihnen zu vertrauen."
+        thinker: Dennett
+
+  - number: 8
+    theme: "Die Kunst der guten Frage"
+    why: "Dein am seltensten trainiertes Ziel — und vielleicht das mächtigste Werkzeug von allen."
+    anchors: ["Warren Berger", "Edgar Schein", "Hal Gregersen", Sokrates]
+    days:
+      - n: 1
+        tool: "Sokratische Methode"
+        essence: "Durch Fragen zum Kern führen, statt zu behaupten — auch bei sich selbst."
+        thinker: Sokrates
+      - n: 2
+        tool: "Humble Inquiry"
+        essence: "Fragen, die Wahrheit und Beziehung öffnen, statt die Antwort schon vorzugeben."
+        thinker: "Edgar Schein"
+      - n: 3
+        tool: "Die Annahme freilegen"
+        essence: "'Was müsste wahr sein, damit das stimmt?' — versteckte Prämissen sichtbar machen."
+        thinker: "Berger / Gregersen"
+      - n: 4
+        tool: "5×Warum & First Principles"
+        essence: "Wiederholtes Nachbohren, bis man auf die Wurzel statt das Symptom stößt."
+        thinker: "Toyota / Feynman"
+      - n: 5
+        tool: "Was würde meine Meinung ändern?"
+        essence: "Die Falsifikations-Frage an dich selbst — der Test gegen Betonköpfigkeit."
+        thinker: "Tetlock / Galef"
+
+  - number: 9
+    theme: "Entscheiden unter Unsicherheit"
+    why: "Alles zusammengeführt: entscheiden, wenn du gerade nicht alles weißt (also immer)."
+    anchors: ["Annie Duke", "Gary Klein", "Chip & Dan Heath"]
+    days:
+      - n: 1
+        tool: "Thinking in Bets"
+        essence: "Entscheidungen als Wetten sehen — mit Wahrscheinlichkeiten, nicht Gewissheiten."
+        thinker: "Annie Duke"
+      - n: 2
+        tool: "Premortem"
+        essence: "Vor der Entscheidung annehmen, sie sei gescheitert — und rückwärts nach dem Warum fragen."
+        thinker: "Gary Klein"
+      - n: 3
+        tool: "Das Entscheidungsjournal"
+        essence: "Was du dachtest, erwartetest und fühltest festhalten — damit du dein Urteil ehrlich prüfen kannst."
+        thinker: "Duke / Parrish"
+      - n: 4
+        tool: "10/10/10 & WRAP"
+        essence: "Wie fühlt sich das in 10 Minuten/Monaten/Jahren an? Ein Prozess gegen enge Momententscheidungen."
+        thinker: "Chip & Dan Heath"
+      - n: 5
+        tool: "Umkehrbare vs. endgültige Türen"
+        essence: "Reversible Entscheidungen schnell treffen, unumkehrbare langsam — Optionen offen halten."
+        thinker: "Duke / Bezos"
+
+  - number: 10
+    theme: "Wie andere dein Denken kapern"
+    why: "Anreize und Einfluss verbiegen Urteile — meist ohne dass du es bemerkst."
+    anchors: [Cialdini, Munger, Mullainathan]
+    days:
+      - n: 1
+        tool: "Psychologie der Fehlurteile"
+        essence: "Mungers Überblick der Kräfte, die menschliches Urteil systematisch verzerren."
+        thinker: Munger
+      - n: 2
+        tool: "Anreize"
+        essence: "'Zeig mir den Anreiz, und ich zeig dir das Ergebnis' — die stärkste versteckte Kraft."
+        thinker: Munger
+      - n: 3
+        tool: "Die Waffen des Einflusses"
+        essence: "Reziprozität, Social Proof, Autorität, Knappheit — die Auslöser, die uns automatisch ja sagen lassen."
+        thinker: Cialdini
+      - n: 4
+        tool: "Scarcity"
+        essence: "Wie das Gefühl von Mangel (an Zeit, Geld) den geistigen Bandbreiten-Raum verengt."
+        thinker: Mullainathan
+      - n: 5
+        tool: "Commitment & Konsistenz"
+        essence: "Warum wir an einmal getroffenen Entscheidungen kleben, auch wenn sie sich als falsch erweisen."
+        thinker: Cialdini
+
+  - number: 11
+    theme: "Die Lehren der Geschichte"
+    why: "Urteilskraft über lange Zeiträume und der Blick auf kollektive Denkfehler der Mächtigen."
+    anchors: [Tuchman, Durant, Taleb]
+    days:
+      - n: 1
+        tool: "The March of Folly"
+        essence: "Warum Regierungen wieder und wieder gegen ihr eigenes offensichtliches Interesse handeln."
+        thinker: Tuchman
+      - n: 2
+        tool: "Lessons of History"
+        essence: "Welche menschlichen Muster über Jahrhunderte konstant bleiben — und was das für Vorhersagen heißt."
+        thinker: Durant
+      - n: 3
+        tool: "Lindy-Effekt"
+        essence: "Was lange überlebt hat, wird wahrscheinlich weiter überleben — Alter als Robustheits-Signal."
+        thinker: Taleb
+      - n: 4
+        tool: "Chesterton's Fence"
+        essence: "Reiße nichts ein, dessen Zweck du nicht verstehst — Demut vor gewachsenen Strukturen."
+        thinker: Chesterton
+      - n: 5
+        tool: "Die Außenperspektive"
+        essence: "Basisraten aus der Geschichte statt der Innensicht des Einzelfalls — gegen Planungsoptimismus."
+        thinker: Kahneman
+
+  - number: 12
+    theme: "Das Latticework — Synthese"
+    why: "Die Modelle nicht einzeln, sondern als vernetztes System nutzen. Dein eigenes Betriebssystem."
+    anchors: [Munger, Bevelin, "Shane Parrish"]
+    days:
+      - n: 1
+        tool: "Inversion"
+        essence: "Rückwärts denken: 'Wie würde ich garantiert scheitern?' — und das dann vermeiden."
+        thinker: "Munger / Jacobi"
+      - n: 2
+        tool: "Kompetenzkreis"
+        essence: "Die Grenze deines echten Wissens kennen — und ehrlich sagen, wo sie endet."
+        thinker: Munger
+      - n: 3
+        tool: "Das Gitterwerk der Modelle"
+        essence: "Denkwerkzeuge aus vielen Disziplinen kombinieren, statt alles mit einem Hammer zu bearbeiten."
+        thinker: "Munger / Bevelin"
+      - n: 4
+        tool: "Occam & Hanlon"
+        essence: "Die einfachste ausreichende Erklärung bevorzugen; nie Bosheit annehmen, wo Dummheit reicht."
+        thinker: "Denk-Rasiermesser"
+      - n: 5
+        tool: "Dein eigenes Betriebssystem"
+        essence: "Die 60 Werkzeuge integrieren: wann welches greift — und wie du von hier aus weiterlernst."
+        thinker: "Parrish / Synthese"

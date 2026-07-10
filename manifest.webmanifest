@@ -1,0 +1,14 @@
+{
+  "name": "Die Kunst des Denkens",
+  "short_name": "Denken",
+  "description": "Jeden Tag ein Werkzeug für klareres Denken und bessere Entscheidungen.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f6f1e7",
+  "theme_color": "#f6f1e7",
+  "icons": [
+    { "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
