@@ -47,5 +47,12 @@
     "tool": "Framing",
     "title": "Die Rückseite derselben Zahl",
     "date": "2026-07-21"
+  },
+  {
+    "day": 8,
+    "week": 2,
+    "tool": "Verfügbarkeitsheuristik",
+    "title": "Wenn Erinnerungen sich als Statistiken verkleiden",
+    "date": "2026-07-22"
   }
 ]
