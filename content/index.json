@@ -110,5 +110,12 @@
     "tool": "Basisraten",
     "title": "Bevor du auf das Detail springst",
     "date": "2026-08-03"
+  },
+  {
+    "day": 17,
+    "week": 4,
+    "tool": "Bayes intuitiv",
+    "title": "Nachjustieren statt umkippen",
+    "date": "2026-08-04"
   }
 ]
