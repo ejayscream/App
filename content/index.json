@@ -124,5 +124,12 @@
     "tool": "Natürliche Häufigkeiten",
     "title": "Mach aus Prozenten Menschen",
     "date": "2026-08-05"
+  },
+  {
+    "day": 19,
+    "week": 4,
+    "tool": "Erwartungswert",
+    "title": "Wenn ein Prozent plötzlich schwer wiegt",
+    "date": "2026-08-06"
   }
 ]
