@@ -159,5 +159,12 @@
     "tool": "Regression zur Mitte",
     "title": "Nach dem Ausreißer",
     "date": "2026-08-12"
+  },
+  {
+    "day": 24,
+    "week": 5,
+    "tool": "Survivorship Bias (Überlebendenverzerrung)",
+    "title": "Frag den Friedhof",
+    "date": "2026-08-13"
   }
 ]
