@@ -215,5 +215,12 @@
     "tool": "Gültigkeit vs. Wahrheit",
     "title": "Richtig geschlossen, trotzdem falsch",
     "date": "2026-08-24"
+  },
+  {
+    "day": 32,
+    "week": 7,
+    "tool": "Falsifizierbarkeit",
+    "title": "Was dürfte nicht passieren?",
+    "date": "2026-08-25"
   }
 ]
