@@ -222,5 +222,12 @@
     "tool": "Falsifizierbarkeit",
     "title": "Was dürfte nicht passieren?",
     "date": "2026-08-25"
+  },
+  {
+    "day": 33,
+    "week": 7,
+    "tool": "Trugschlüsse I",
+    "title": "Kämpfe nicht gegen den Schatten",
+    "date": "2026-08-26"
   }
 ]
