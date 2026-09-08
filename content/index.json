@@ -285,5 +285,12 @@
     "tool": "Thinking in Bets",
     "title": "Du wettest sowieso",
     "date": "2026-09-07"
+  },
+  {
+    "day": 42,
+    "week": 9,
+    "tool": "Premortem",
+    "title": "Post aus der gescheiterten Zukunft",
+    "date": "2026-09-08"
   }
 ]
